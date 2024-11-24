@@ -1,5 +1,6 @@
-﻿# Project Name: NewsWebsite
-Tech:
+# Project Name: NewsWebsite
+
+## Tech:
 1. HTML
 2. Basic CSS
 3. Nav
@@ -8,11 +9,11 @@ Tech:
 6. Texts (h1-h6, b, p)
 7. class, id
 
---
--nav
--table
--form
--img
--marquee
--i
--details, summery
+## Additional Elements:
+- nav
+- table
+- form
+- img
+- marquee
+- i
+- details, summary
