@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ঈশ্বরদী বার্তা - দৈনিক সংবাদপত্র</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     img {
       width: 200px;
@@ -24,8 +24,16 @@
     .white {
       color: #ffffff;
     }
-    .logo{
+
+    .logo {
       height: auto;
+    }
+
+    .table-gray {
+      background-color: #f0f0f0;
+    }
+    marquee{
+      margin-top: 5px;
     }
   </style>
 </head>
@@ -49,29 +57,30 @@
     <table width="100%" class="bgcolor" cellpadding="10">
       <tr class="center">
         <td>
-          <a href="#top-news" class="white">প্রধান খবর</a>
+          <a href="#top-news" class="white"><i class="fa-solid fa-newspaper"></i>প্রধান খবর</a>
         </td>
         <td>
-          <a href="#global-diplomacy" class="white">আন্তর্জাতিক</a>
+          <a href="#global-diplomacy" class="white"><i class="fa-solid fa-globe"></i>আন্তর্জাতিক</a>
         </td>
         <td>
-          <a href="#tech-innovations" class="white">প্রযুক্তি</a>
+          <a href="#tech-innovations" class="white"><i class="fa-solid fa-microchip"></i>প্রযুক্তি</a>
         </td>
         <td>
-          <a href="#sports-space" class="white">খেলাধুলা</a>
+          <a href="#sports-space" class="white"><i class="fa-solid fa-futbol"></i>খেলাধুলা</a>
         </td>
         <td>
-          <a href="#how-to-post" class="white">খবর পাঠানোর নিয়ম</a>
+          <a href="#how-to-post" class="white"><i class="fa-solid fa-file-alt"></i>খবর পাঠানোর নিয়ম</a>
         </td>
       </tr>
     </table>
   </nav>
 
   <!-- Breaking News Banner -->
-  <marquee class="bgcolor white" behavior="scroll" direction="left" height="30">
-    <b>শেয়ারবাজারে নতুন রেকর্ড! | দেশের অর্থনীতিতে ইতিবাচক পরিবর্তন! | নতুন
-      প্রযুক্তিতে বাংলাদেশের অগ্রগতি!</b>
-  </marquee>
+    <marquee class="bgcolor white" behavior="scroll" direction="left" height="30">
+      <b>শেয়ারবাজারে নতুন রেকর্ড! | দেশের অর্থনীতিতে ইতিবাচক পরিবর্তন! | নতুন
+        প্রযুক্তিতে বাংলাদেশের অগ্রগতি!</b>
+    </marquee>
+
 
   <!-- Top News Section -->
   <section id="top-news">
@@ -79,7 +88,7 @@
       <tr>
         <td colspan="3" class="center bgcolor">
 
-          <b>প্রধান খবর</b>
+          <b><i class="fa-solid fa-newspaper"> প্রধান খবর </b>
 
         </td>
       </tr>
@@ -88,7 +97,7 @@
         <th class="left">শিরোনাম</th>
         <th class="left">তারিখ</th>
       </tr>
-      <tr bgcolor="#f0f0f0">
+      <tr class="table-gray">
         <td>জাতীয়</td>
         <td>পদ্মা সেতুতে রেল যোগাযোগ চালু</td>
         <td>২২ নভেম্বর, ২০২৪</td>
@@ -98,7 +107,7 @@
         <td>রপ্তানি আয়ে নতুন রেকর্ড</td>
         <td>২১ নভেম্বর, ২০২৪</td>
       </tr>
-      <tr bgcolor="#f0f0f0">
+      <tr class="table-gray">
         <td>প্রযুক্তি</td>
         <td>দেশে তৈরি প্রথম স্মার্টফোন উদ্বোধন</td>
         <td>২০ নভেম্বর, ২০২৪</td>
@@ -110,9 +119,9 @@
   <section id="global-diplomacy">
     <table width="100%" cellpadding="10">
       <tr>
-        <td colspan="2" class="center" bgcolor="#003366">
+        <td colspan="2" class="center bgcolor">
 
-          <b>আন্তর্জাতিক সংবাদ</b>
+          <b><i class="fa-solid fa-globe"> আন্তর্জাতিক সংবাদ </b>
 
         </td>
       </tr>
@@ -167,9 +176,9 @@
   <section id="tech-innovations">
     <table width="100%" cellpadding="10">
       <tr>
-        <td class="center" bgcolor="#003366">
+        <td class="center bgcolor">
 
-          <b>প্রযুক্তি বিভাগ</b>
+          <b><i class="fa-solid fa-microchip"></i> প্রযুক্তি বিভাগ </b>
 
         </td>
       </tr>
@@ -205,7 +214,7 @@
       <tr>
         <td class="center bgcolor">
 
-          <b>খেলাধুলা</b>
+          <b><i class="fa-solid fa-futbol"></i> খেলাধুলা </b>
 
         </td>
       </tr>
@@ -239,7 +248,7 @@
     <table width="100%" cellpadding="10">
       <tr>
         <td class="center bgcolor">
-          <b>খবর পাঠান</b>
+          <b><i class="fa-solid fa-file-alt"></i>খবর পাঠান</b>
 
         </td>
       </tr>
@@ -286,7 +295,7 @@
         </td>
       </tr>
       <tr>
-        <td class="center bgcolor white">
+        <td class="center">
           <video width="640" height="360" controls>
             <source src="./src/how_to_post.mp4" type="video/mp4" />
             আপনার ব্রাউজার ভিডিও সাপোর্ট করে না।
